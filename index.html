@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Climate</title>
+</head>
+<body>
+    <div class="card">
+        <div class="main">
+            <div class="input-city">
+                <h2 class="city">Delhi</h2>
+            </div>
+            <div>
+                <p class="sky"></p>
+            </div>
+                <img class="icon-c" src="" alt="icon-cloud" width="300px">
+            <div>
+                <p class="temp"></p>
+            </div>
+        </div>
+        <div class="other">
+            <div class="input">
+                <div class="time">
+                    <p class="time-text"></p>
+                </div>
+                <div class="input-city">
+                    <input class="show" id="city-text" type="text" placeholder="Search a city....">
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="all">
+                    <div class="icons">
+                        <img class="humidity-icon" src="./images/humidity.png" alt="" width="75px">
+                    </div>
+                    <div>
+                        <p>Humidity</p>
+                        <p class="humidity-text"></p>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="icons">
+                        <img class="wind-icon" src="./images/storm.png" alt="" width="75px">
+                    </div>
+                    <div>
+                        <p>Wind Speed</p>
+                        <p class="wind-text"></p>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="icons">
+                        <img class="direction-icon" src="./images/compass.png" alt="" width="75px">
+                    </div>
+                    <div>
+                        <p>Wind direction</p>
+                        <p class="direction-text"></p>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="icons">
+                        <img class="visibility-icon" src="./images/binoculars.png" alt="" width="75px">
+                    </div>
+                    <div>
+                        <p>Visibility</p>
+                        <p class="visibility-text"></p>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="icons">
+                        <img class="sunrise-icon" src="./images/sunrise.png" alt="" width="75px">
+                    </div>
+                    <div>
+                        <p>Sunrise</p>
+                        <p class="sunrise-text"></p>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="icons">
+                        <img class="sunset-icon" src="./images/sunset.png" alt="" width="75px">
+                    </div>
+                    <div>
+                        <p>Sunset</p>
+                        <p class="sunset-text"></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>     
