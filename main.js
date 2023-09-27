@@ -1,7 +1,4 @@
-let url1;
-let url2;
-url1[0]=url1;
-url1[1]=url2;
+import {F_KEY,L_KEY} from './config.js';
 let city="Delhi"
 let newEl;
 update(city)
@@ -19,7 +16,7 @@ $("#city-text").on('keyup', function (event) {
     }
  });
 function update(city){
-$.getJSON(urll[0]+city+urll[1],function(data){
+$.getJSON(F_KEY+city+L_KEY,function(data){
     var icon="https://openweathermap.org/img/w/"+ data.weather[0].icon+".png";
     $('.icon-c').attr('src',icon);
     var temp=((data.main.temp)-32)*(5/9);
