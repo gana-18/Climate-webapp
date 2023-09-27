@@ -1,5 +1,7 @@
-import { hi } from './data.js'
-let urll=hi()
+let url1;
+let url2;
+url1[0]=url1;
+url1[1]=url2;
 let city="Delhi"
 let newEl;
 update(city)
